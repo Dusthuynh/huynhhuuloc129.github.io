@@ -18,15 +18,15 @@ h1 {
     display: grid;
     grid-template-columns: 0px;
     grid-template-rows: 0;
-    top: 35%;
+    top: 50%;
     left: 50%;
     grid-template-columns: repeat(8,80px);
-    grid-template-rows: repeat(11,30px);
+    grid-template-rows: repeat(11,50px);
     grid-row-gap: 0;
     grid-column-gap: 0;
     transform: translate(-50%,-50%);
 }
-.t8, .tam{
+.t8, .thu8{
     border-right: var(--border);
 }
 .tiet9, .titlet9{
@@ -42,7 +42,7 @@ h1 {
 }
 #inputform{
     position: absolute;
-    top: 70%;
+    top: 99%;
     left: 50%;
     transform: translate(-50%,-50%);
     justify-content: center;
@@ -62,7 +62,7 @@ h1 {
     position: absolute;
     display: grid;
     padding-bottom: 200px;
-    top: 80%;
+    top: 110%;
     left: 50%;
     transform: translate(-50%, 0);
 
@@ -73,10 +73,7 @@ h1 {
 .title{
     border: var(--border);
 }
-.child{
-    padding: 2px;
-    border: var(--border);
-}
+
 button{
     cursor: pointer;
 }
