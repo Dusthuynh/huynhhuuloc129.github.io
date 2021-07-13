@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Francois+One&display=swap');
 :root{
-    --border: 2px solid black;
+    --border: 2px solid rgb(156, 97, 97);
 }
 body {
     font-family: 'Francois One', sans-serif;
